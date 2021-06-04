@@ -1,0 +1,80 @@
+{
+    "population": {
+        "title": "Resident population",
+        "roboString": "The population of {name} was {population2001} in 2001 and {population2011} in 2011.",
+        "rows": [
+            {"name": "2001", "var": ["population", "2001"], "bold": false, "inChart": true},
+            {"name": "2011", "var": ["population", "2011"], "bold": false, "inChart": true}
+        ]
+    },
+    "age": {
+        "title": "Age breakdown",
+        "roboString": "{name} had {a1664_2001} people aged 16-64 in 2001 and {a1664_2011} in 2011.",
+        "rows": [
+            {"name": "0-15", "var": ["age", "a015"], "bold": false, "inChart": true},
+            {"name": "16-64", "var": ["age", "a1664"], "bold": false, "inChart": true, "roboName": "a1664_"},
+            {"name": "65 and over", "var": ["age", "a65plus"], "bold": false, "inChart": true}
+        ]
+    },
+    "medage": {
+        "title": "Average age",
+        "roboString": "{name} had {a1664_2001} people aged 16-64 in 2001 and {a1664_2011} in 2011.",
+        "rows": [
+            {"name": "2001", "var": ["medage", "2001"], "bold": false, "inChart": true},
+            {"name": "2011", "var": ["medage", "2011"], "bold": false, "inChart": true, "roboName": "a1664_"}
+        ]
+    },
+    "economic": {
+        "title": "Economic activity",
+        "roboString": "{name} had {a1664_2001} people aged 16-64 in 2001 and {a1664_2011} in 2011.",
+        "rows": [
+            {"name": "Carer", "var": ["economic", "carer"], "bold": false, "inChart": true},
+            {"name": "Employed", "var": ["economic", "employed"], "bold": false, "inChart": true},
+            {"name": "Inactive", "var": ["economic", "inactive"], "bold": false, "inChart": true},
+            {"name": "Retired", "var": ["economic", "retired"], "bold": false, "inChart": true},
+            {"name": "Student", "var": ["economic", "student"], "bold": false, "inChart": true},
+            {"name": "Unemployed", "var": ["economic", "unemployed"], "bold": false, "inChart": true}
+        ]
+    },
+    "ethnicity": {
+        "title": "Ethnicity",
+        "roboString": "{name} had {a1664_2001} people aged 16-64 in 2001 and {a1664_2011} in 2011.",
+        "rows": [
+            {"name": "Asian", "var": ["ethnicity", "asian"], "bold": false, "inChart": true},
+            {"name": "Black", "var": ["ethnicity", "black"], "bold": false, "inChart": true, "roboName": "a1664_"},
+            {"name": "Mixed", "var": ["ethnicity", "mixed"], "bold": false, "inChart": true},
+            {"name": "Other", "var": ["ethnicity", "other"], "bold": false, "inChart": true, "roboName": "a1664_"},
+            {"name": "White", "var": ["ethnicity", "white"], "bold": false, "inChart": true}
+        ]
+    },
+    "tenure": {
+        "title": "Tenure",
+        "roboString": "{name} had {a1664_2001} people aged 16-64 in 2001 and {a1664_2011} in 2011.",
+        "rows": [
+            {"name": "Other", "var": ["tenure", "other"], "bold": false, "inChart": true},
+            {"name": "Owned", "var": ["tenure", "owned"], "bold": false, "inChart": true, "roboName": "a1664_"},
+            {"name": "Private rent", "var": ["tenure", "rentprivate"], "bold": false, "inChart": true},
+            {"name": "Social rent", "var": ["tenure", "rentsocial"], "bold": false, "inChart": true, "roboName": "a1664_"},
+            {"name": "Shared ownership", "var": ["tenure", "sharedown"], "bold": false, "inChart": true}
+        ]
+    },
+    "socialgrade": {
+        "title": "Social demographics",
+        "roboString": "{name} had {a1664_2001} people aged 16-64 in 2001 and {a1664_2011} in 2011.",
+        "rows": [
+            {"name": "Upper middle-class", "var": ["socialgrade", "ab"], "bold": false, "inChart": true},
+            {"name": "Lower middle-class", "var": ["socialgrade", "c1"], "bold": false, "inChart": true, "roboName": "a1664_"},
+            {"name": "Skilled working-class", "var": ["socialgrade", "c2"], "bold": false, "inChart": true},
+            {"name": "Working-class or non-working", "var": ["socialgrade", "de"], "bold": false, "inChart": true}
+        ]
+    },
+    "density": {
+        "title": "Population density",
+        "roboString": "{name} had {a1664_2001} people aged 16-64 in 2001 and {a1664_2011} in 2011.",
+        "rows": [
+            {"name": "2001", "var": ["density", "2001"], "bold": false, "inChart": true},
+            {"name": "2011", "var": ["density", "2011"], "bold": false, "inChart": true, "roboName": "a1664_"}
+                  
+        ]
+    }
+}
